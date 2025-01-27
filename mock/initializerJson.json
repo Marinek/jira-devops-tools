@@ -1,0 +1,29 @@
+{
+    "httpRequest": {
+        "method": "POST",
+        "path": "/rest/api/2/issue",
+        "body": {
+            "type": "JSON",
+            "json": {
+                "fields": {
+                    "project": {
+                        "key": "TEST"
+                    },
+                    "summary": "Issue summary",
+                    "description": "Issue description",
+                    "issuetype": {
+                        "name": "Bug"
+                    }
+                }
+            }
+        }
+    },
+    "httpResponse": {
+        "statusCode": 201,
+        "body": {
+            "id": "10000",
+            "key": "TEST-1",
+            "self": "http://www.example.com/jira/rest/api/2/issue/10000"
+        }
+    }
+}

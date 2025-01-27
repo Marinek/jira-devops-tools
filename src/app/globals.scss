@@ -1,0 +1,9 @@
+// Import Bootstrap and its default variables
+$body-tertiary-bg: #c4ccd3;
+
+@import '~bootstrap/scss/bootstrap';
+
+.navbar-spacing {
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
